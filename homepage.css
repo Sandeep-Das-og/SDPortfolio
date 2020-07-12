@@ -1,0 +1,46 @@
+#top1{
+	overflow: hidden;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	position: fixed;
+}
+
+#sec1{
+	margin-top: 100px;
+}
+
+.pic1{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#f1{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#b_container
+{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(pb3.jpg);
+    background-size: 100% 400px;
+	width: 100%;
+    height: 400px;
+    position: static;
+}
+
+
+#b_text
+{
+    position: static;    
+    color:white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+

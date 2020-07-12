@@ -1,0 +1,203 @@
+/*
+body{
+	background-color: #C6DC1F;
+}
+
+.chng_font{
+	color: red;
+}
+
+#blue_font{
+	color: blue;
+}
+
+
+body{
+	margin: 0px;
+}
+.width_100{
+	width: 100%;
+}
+.float_left{
+	float: left;
+}
+
+#header{
+	float: left;
+	width: 100%;
+	height: 50px;
+	padding: 20px 0px 0px 15px;
+	color: white;
+	background-color: #CE3B29;
+}
+
+#left{
+	float: left;
+	width: 50%;
+	height: 590px;
+	background-color: #E5CD25;
+}
+
+#right{
+	float: left;
+	width: 50%;
+	height: 590px;
+	background-color: #F62A7D;
+}
+
+#footer{
+	float: left;
+	width: 100%;
+	height: 250px;
+	background-color: #FE771F;
+	padding: 0px 0px 0px 650px;
+	color: white;
+}
+*/
+*{
+	margin: 0px;
+}
+body, html{
+	width: 100%;
+	height: 100%;
+}
+
+.bg_grey{
+	background-color: #e2e2e2;
+}
+
+.mt_top50{
+	margin-top: 50px;
+}
+
+.mt_80{
+	margin-top: 80px;
+}
+
+.green_grad{
+	background-color: background: #159957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: 100% 25%;
+}
+
+.header{	
+  padding: 30px;	
+  font-size: 30px;
+  text-align: center;
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25,    Safari 5.1-6 */
+  background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer{
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25,    Safari 5.1-6 */
+  background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.vertical{
+	border-left: 1px solid black;
+	height: inherit;
+	position: absolute;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: inherit;
+  background-color: lightgray;
+  position: fixed;
+  height: 38%;
+  overflow: auto;
+}
+
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 17%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
